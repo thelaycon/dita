@@ -1,0 +1,13 @@
+<map>
+  <title>DITA for the Impatient</title>
+
+  <topicmeta>
+    <author>Hussein Shafie</author>
+    <publisher>Pixware</publisher>
+    <critdates>
+      <created date="October 7, 2009"/>
+    </critdates>
+  </topicmeta>
+
+  <topicref href="introduction.dita"/>
+</map>
