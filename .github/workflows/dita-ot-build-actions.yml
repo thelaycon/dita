@@ -16,3 +16,13 @@ jobs:
           input: document.ditamap
           transtype: pdf
           output-path: out
+      - name: Build HTML5 using DITA-OT
+        uses: dita-ot/dita-ot-action@master
+        with:
+          plugins : |
+           fox.jason.extend.css
+           org.doctales.xmltask
+           fox.jason.prismjs
+          input: document.ditamap
+          transtype: html5
+          output-path: out
