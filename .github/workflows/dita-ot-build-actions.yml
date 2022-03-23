@@ -31,16 +31,20 @@ jobs:
       - name: Build HTML
         uses: dita-ot/dita-ot-action@master
         with:
-          input: document.ditamap
-          transtype: htmlhelp
-          output-path: out
-          
-      - name: Upload DITA Output to a ZIP file
-        uses: actions/upload-artifact@v2
-        with:
-          name: dita-artifact
-          path: 'out'
+          install: |
+            # Run some arbitrary installation commands
+            apt-get update -q
+            apt-get install -qy --no-install-recommends nodejs
+            nodejs -v
 
+            # Install plugins
+            dita install fox.jason.extend.css
+            dita install org.doctales.xmltask
+            dita install fox.jason.prismjs
+          build: |
+            # Use the dita command line
+            dita -i document.ditamap -o out -f htmlhelp --filter=filter1.ditaval
+       
       - name: Deploy DITA Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
