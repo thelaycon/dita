@@ -26,8 +26,15 @@ jobs:
             dita install fox.jason.prismjs
           build: |
             # Use the dita command line
-            dita -i document.ditamap -o out -f htmlhelp --filter=filter1.ditaval
-
+            dita -i document.ditamap -o out -f pdf --filter=filter1.ditaval
+            
+      - name: Build HTML
+        uses: dita-ot/dita-ot-action@master
+        with:
+          input: document.ditamap
+          transtype: htmlhelp
+          output-path: out
+          
       - name: Upload DITA Output to a ZIP file
         uses: actions/upload-artifact@v2
         with:
