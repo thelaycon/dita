@@ -41,10 +41,9 @@ jobs:
             dita install fox.jason.extend.css
             dita install org.doctales.xmltask
             dita install fox.jason.prismjs
-            dita install org.dita.htmlhelp
           build: |
             # Use the dita command line
-            dita -i document.ditamap -o out -f htmlhelp --filter=filter1.ditaval
+            dita -i document.ditamap -o out -f htmlhelp -d --filter=filter1.ditaval
        
       - name: Deploy DITA Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
