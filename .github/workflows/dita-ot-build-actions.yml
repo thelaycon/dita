@@ -26,17 +26,6 @@ jobs:
             dita install fox.jason.prismjs
           build: |
             # Use the dita command line
-            dita -i document.ditamap -o out -f pdf --filter=filter1.ditaval
+            dita -i document.ditamap -o out -f pdf
 
-      - name: Upload DITA Output to a ZIP file
-        uses: actions/upload-artifact@v2
-        with:
-          name: dita-artifact
-          path: 'out'
-
-      - name: Deploy DITA Output to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: out # The folder the action should deploy.
+      
