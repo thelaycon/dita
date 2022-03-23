@@ -43,7 +43,7 @@ jobs:
             dita install fox.jason.prismjs
           build: |
             # Use the dita command line
-            dita -i document.ditamap -o out -f htmlhelp -d --filter=filter1.ditaval
+            dita -i document.ditamap -o out --format=htmlhelp --filter=filter1.ditaval && ls out
        
       - name: Deploy DITA Output to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
