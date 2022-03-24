@@ -3,5 +3,5 @@
 <map>
  <title>DIT Topic Map</title>
  
- <topicref href="introduction.dita"/>
+ <topicref href="intro.dita"/>
 </map>
