@@ -62,7 +62,7 @@
 		<cmd>hugo version</cmd>
 		</p>
 			
-		<b>Windows<b>
+		<b>Windows</b>
 		<p>For Chocolatey users on windows, run the following command to install Hugo:
 
 		<cmd>choco install hugo -confirm</cmd>
