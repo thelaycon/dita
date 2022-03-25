@@ -11,4 +11,5 @@
 	</topicmeta>
 	<topicref href="intro.dita"/>
 	<topicref href="installation.dita"/>
+	<topicref href="quickstart.dita"/>
 </map>

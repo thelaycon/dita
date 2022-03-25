@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="hugo_getting_started">
+	<title>Quick Start</title>
+
+	<taskbody>
+		<prereq>This section gives you a basic overview of how Hugo works and how you can create your first Hugo website. By proceeding, this section assumes that you have a working installation of Hugo on your machine.</prereq>
+
+		<steps>
+			<step>
+				<cmd>To create a website called <cmdname>mysite</cmdname>, run:</cmd>
+
+				<stepxmp><screen>hugo new site mysite</screen></stepxmp>
+
+				<stepresult><p>The above will create a folder called mysite which contains all Hugo essential files. Hugo comes with a hot-reload server that you can use in development.</p></stepresult>
+			</step>
+
+			<step>
+				<cmd>Start the server.</cmd>
+
+				<info>Hugo provides a hot-reload server for development purpose. All changes made to files will be reflected.</info>
+
+				<stepxmp><screen>hugo server -D</screen></stepxmp>
+
+				<stepresult><p>Your Hugo website is now listening on https://localhost:1313</p></stepresult>
+			</step>
+
+			<step>
+				<cmd>Add a theme.</cmd>
+
+				<info>
+					<p>Here you go, your first Hugo website. You should notice however that your website is blank, to give life to your website, you must add a Hugo theme. Hundreds of Hugo themes are available online, Hugo official website has a repository of beautiful themes that can be found here.</p>
+
+					<p>To add a theme, you need to save the theme under the *themes* folder. We will be using a certain theme called Ananke.</p>
+				</info>
+				<stepxmp>
+					<screen>
+						cd mysite
+						git init
+							git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+					</screen>
+				</stepxmp>
+			</step>
+
+			<step>
+				<cmd>Add theme to config.toml.</cmd>
+
+				<info>After downloading the theme, you must tell Hugo the name of your theme. Edit the config.toml file and add the following:</info>
+
+				<stepxmp><screen>theme = "ananke"</screen></stepxmp>
+
+				<stepresult><p>Hugo now recognizes your theme.</p></stepresult>
+
+			</step>
+
+			<step>
+				<cmd>Add content.</cmd>
+
+				<info>Hugo provides a command through which you can create new posts for your website. The following illustrates how to create a post titled "My first post" using Hugo command.</info>
+
+				<stepxmp><screen>hugo new posts/my-first-post.md</screen><stepxmp>
+
+						<stepresult>
+							<p>The above command will generate a new file called my-first-post.md under the contents/post folder. You should notice that Hugo utilizes a markdown template for creating new posts. If you edit the newly created file, you should have something like this:</p>
+
+							<pre>
+								---
+								title: "My First Post"
+								date: 2019-03-26T08:47:11+01:00
+								draft: true
+								---
+							</pre>
+
+							<p>Your content should go below the last hyphens. You must set the draft mode to "true" if you want the article to be published during deployment.</p>
+
+							<p>Alternatively, you can do this manually by creating a folder of your category under the contents folder. Inside this new folder you should create a .md file structured like above. Another method is to create another folder inside your category folder and create an index.md file within it. The following structures are valid ways of creating an Hugo post.</p>
+							
+							<pre>
+								contents/posts/my-first-post.md
+								contents/posts/my-first-post/index.md
+								contents/about/index.md
+								contents/about.md
+							</pre>
+						</stepresult>
+					</step>
+
+					<step>
+						<cmd>Preview website.</cmd>
+
+						<info>Now that you have a theme and a post on your website, start the server and preview your website.</info>
+
+						<stepxmp>
+							<screen>
+
+								hugo server -D
+
+										   | EN
+								+------------------+----+
+								  Pages            | 10
+								  Paginator pages  |  0
+								  Non-page files   |  0
+								  Static files     |  3
+								  Processed images |  0
+								  Aliases          |  1
+								  Sitemaps         |  1
+								  Cleaned          |  0
+
+								Total in 11 ms
+								Watching for changes in /Users/bep/mysite/{content,data,layouts,static,themes}
+								Watching for config changes in /Users/bep/mysite/config.toml
+								Environment: "development"
+								Serving pages from memory
+								Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+								Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+								Press Ctrl+C to stop
+							</screen>
+						</stepxmp>
+
+						<stepresult><p>Your website should now display some content.</p></stepresult>
+
+					</step>
+				</steps>
+
+				<p>For further configuration, read the chapter on structure.</p>
+
+
+			</taskbody>
+</task>
