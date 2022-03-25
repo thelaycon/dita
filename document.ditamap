@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA Bookmap//EN" "map.dtd">
-<bookmap>
+<bookmap xml:lang="en-us">
 	<booktitle>
 		<mainbooktitle>Hugo Documentation</mainbooktitle>
 	</booktitle>
