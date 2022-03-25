@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<bookmap xml:lang="en-us">
-	<booktitle>
-		<mainbooktitle>Hugo Documentation</mainbooktitle>
-	</booktitle>
-	<bookmeta>
-		<authorinformation>
-			<personinfo>Tobi Balogun</personinfo>
-			<organizationinfo>The LayCon</organizationinfo>
-		</authorinformation>
+<map>
+	<title>
+		Hugo Documentation
+	</title>
+	<topicmeta>
+		<author>Tobi Balogun</author>
+		<publisher>The LayCon</publisher>
+        </topicmeta>
 		<critdates>
 			<created date="March 25, 2022"/>
 		</critdates>
-	</bookmeta>
+	</topicmeta>
 
-	<frontmatter>
-		<booklists>
-			<toc/>
-			<figurelist/>
-			<tablelist/>
-		</booklists>
-	</frontmatter>
-
-	<chapter href="intro.dita"/>
-	<chapter href="installation.dita"/>
-	<chapter href="quickstart.dita"/>
-	<chapter href="structure.dita"/>
-	<chapter href="themes.dita"/>
-	<chapter href="deployment.dita"/>
-	<chapter href="configuration.dita"/>
-	<chapter href="glossary.dita"/>
-</bookmap>
+	<topicref href="intro.dita"/>
+	<topicref href="installation.dita"/>
+	<topicref href="quickstart.dita"/>
+	<topicref href="structure.dita"/>
+	<topicref href="themes.dita"/>
+	<topicref href="deployment.dita"/>
+	<topicref href="configuration.dita"/>
+	<topicref href="glossary.dita"/>
+</map>
