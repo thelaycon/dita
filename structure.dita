@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_structure">
+	<title>Structure</title>
+
+	<body>
+		<p>The structure of a Hugo website is simple to understand. This sections explains each folders and how they can be configured to suit your complex needs.</p>
+		<p>
+			<screen>
+			.
+			├── archetypes
+			├── config.toml
+			├── content
+			├── data
+			├── layouts
+			├── static
+			└── themes
+			</screen>
+		</p>
+		
+		<section>
+			<title>archetypes</title>
+
+			<p>All types of contents used by your Hugo websites are defined. They are basically templates on how posts should look like.</p>
+
+		</section>
+
+		<section>
+			<title>config.toml</title>
+
+			<p>You should edit this file before deployment as it contains vital information about your website. A typical config file looks like:</p>
+
+			<p>
+				<screen>
+					baseURL = "https://example.org/"
+					languageCode = "en-us"
+					title = "My New Hugo Site"
+					theme = "ananke"
+				</screen>
+			</p>
+		</section>
+
+		<section>
+			<title>content</title>
+
+			<p>All contents for your website belong here. The sections and categories of your website determines how this folder can be structured.</p>
+
+		</section>
+
+		<section>
+			<title>data</title>
+
+			<p>Configuration files used by Hugo when generating your website are stored here. You can also create data templates here to generate data from dynamic contents.</p>
+
+		</section>
+
+		<section>
+			<title>layouts</title>
+
+			<p>HTML files that describe the appearance of your website are stored here. You should only edit these files if you know what you are doing.</p>
+
+		</section>
+
+		<section>
+			<title>static</title>
+
+			<p>All CSS, JavaScript, image, and other static files used by Hugo are stored here.</p>
+
+		</section>
+
+		<section>
+			<title>themes</title>
+			<p>All downloaded Hugo themes should be stored under this folder.</p>
+
+		</section>
+
+	</body>
+</topic>

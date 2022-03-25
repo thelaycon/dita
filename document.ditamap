@@ -12,4 +12,5 @@
 	<topicref href="intro.dita"/>
 	<topicref href="installation.dita"/>
 	<topicref href="quickstart.dita"/>
+	<topicref href="structure.dita"/>
 </map>

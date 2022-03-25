@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="hugo_introduction">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hugo_introduction">
 	<title>Hugo</title>
 
-	<body>
+	<conbody>
 		
 		<p>Hugo is a lightweight static site generator made with Golang. Hugo enables developers to create fast websites that can work with or without servers, this versatility of Hugo provides developers the flexibility to deploy Hugo websites on different environments or integrate them with already existing websites.</p>
 
@@ -22,11 +22,11 @@
 		With Hugo, static websites can be managed with single or multiple commands without tempering with the existing design and configurations of websites.</p> 
 			<p>In addition, Hugo has a repository of beautiful themes that can be customised to suit your needs. The community is vibrant, hence new themes both free and premium ones are published regularly.</p>
 		</section>
-	</body>
+	</conbody>
 
 	<related-links>
 		<link format="html" href="https://www.tobibalogun.com.ng/" scope="external">
 			<linktext>Learn more</linktext>
 		</link>
 	</related-links>
-</topic>
+</concept>
