@@ -19,5 +19,5 @@
 	<topicref href="themes.dita"/>
 	<topicref href="deployment.dita"/>
 	<topicref href="configuration.dita"/>
-	<topicref href="glossary.dita"/>
+	<glossref href="glossary.ditamap"/>
 </map>
