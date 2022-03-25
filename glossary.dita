@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossgroup//EN" "glossgroup.dtd">
-
-<glossgroup id="hugo_glossary">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_glossary">
+<title></title>
+<glossgroup>
 	<title>Glossary</title>
 	<glossentry id="ci_cd">
 		<glossterm>CI/CD</glossterm>
@@ -9,3 +10,4 @@
 	</glossentry>
 
 </glossgroup>
+</topic>
