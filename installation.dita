@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_installation">
+	<title>Installation</title>
+
+	<body>
+		
+		<p>This sections covers the installation steps to have Hugo installed on your machine. Hugo can be installed on your machine by following one of the below options:
+		<ul>
+			<li>* Download binaries.</li>
+			<li>* Build from source.</li>
+			<li>* Use package installers.</li>
+		</ul>
+		</p>
+
+		<b>Download Binaries</b>
+		<p>Hugo binaries are cross-platform. Hence, you can download them and use them on your machines as you wish. Preferably, you should add the downloaded binaries to path to give you flexibility. Also, you can add the binaries on remote servers for cloud solutions.
+
+		Click here to download suitable binaries for your machines.</p>
+
+		<b>Build from Source</b>
+		<p>To build Hugo from source, you must have Golang installed. Download the latest version of Golang from https://golang.org if you do not have Golang installed on your machine. After you complete the basic Golang installation steps, follow the below steps to build Hugo from source on your machine:</p>
+
+		<p>MacOs users should run the following to build Hugo from source:
+
+		You must install Golang on your Mac machine:
+
+		<cmd>brew install go</cmd>
+
+		After you install Golang, fetch the source code from GitHub and compile it.
+
+		<cmd>git clone https://github.com/gohugoio/hugo
+		mkdir -p src/github.com/gohugoio
+		ln -sf $(pwd) src/github.com/gohugoio/hugo
+
+		go get
+		go build -o hugo main.go</cmd>
+
+		The generated hugo file is a binary that can added to path or moved about.</p>
+
+		<b>Use Package Installers</b>
+		<p>This method is recommended for less technical users and for technical users as well. Make sure you have the package installers on your machine before trying to install Hugo.
+
+		<b>MacOS</b>
+		For HomeBrew users, run the following commands to install Hugo:
+
+		<cmd>brew install hugo</cmd>
+
+		If you want only the absolute latest in development version, run the below:
+
+		<cmd>brew install hugo --HEAD</cmd>
+
+		You should see something similar to this if homebrew is working well:
+
+		<cmd>==> Downloading https://homebrew.bintray.com/bottles/hugo-0.21.sierra.bottle.tar.gz
+		######################################################################### 100.0%
+		==> Pouring hugo-0.21.sierra.bottle.tar.gz
+			/usr/local/Cellar/hugo/0.21: 32 files, 17.4MB</cmd>
+
+		Now to confirm if homebrew has successfully installed Hugo, run the following command:
+
+		<cmd>hugo version</cmd>
+		</p>
+			
+		<b>Windows<b>
+		<p>For Chocolatey users on windows, run the following command to install Hugo:
+
+		<cmd>choco install hugo -confirm</cmd>
+
+		Run the below command if you want Sass/SCSS support:
+
+		<cmd>choco install hugo-extended -confirm</cmd>
+
+		However, if you are using Scoop package manager, you should use the following command:
+
+		<cmd>scoop install hugo</cmd>
+
+		For an extended version, run:
+
+		<cmd>scoop install hugo-extended</cmd>
+		</p>
+
+		<b>Linux</b>
+		<p>For Linux users, HomeBrew can be used as expressed for MacOS users. If you are using a Linux distribution that supports Snap, run the command below to install Hugo:
+
+		<cmd>snap install hugo</cmd> 
+
+		For an extended version that supports Sass/SCSS, run:
+
+		<cmd>snap install hugo --channel=extended</cmd>
+
+
+			For information on how to download or install Hugo on your machine, see the links below:
+		</p>
+			</body>
+
+	<related-links>
+		<link format="html" href="https://www.tobibalogun.com.ng/" scope="external">
+			<linktext>Learn more</linktext>
+		</link>
+	</related-links>
+</topic>

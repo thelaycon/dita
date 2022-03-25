@@ -3,10 +3,9 @@
 <topic id="hugo_introduction">
 	<title>Hugo</title>
 
-	<shortdesc>Hugo is a lightweight static site builder</shortdesc>
 	<body>
 		
-		<p>Hugo is a lightweight static site generator made with Golang. Beneath the simplicity of Hugo lies the Jekyll engine that powers most of the features of Hugo. Hugo enables developers to create fast websites that can work with or without servers, this versatility of Hugo provides developers the flexibility to deploy Hugo on different environments and integrate it with already existing websites.</p>
+		<p>Hugo is a lightweight static site generator made with Golang. Hugo enables developers to create fast websites that can work with or without servers, this versatility of Hugo provides developers the flexibility to deploy Hugo on different environments and integrate it with already existing websites.</p>
 
 		<b>What are static websites?</b>
 
