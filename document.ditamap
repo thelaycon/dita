@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Hugo Documentation</title>
- 
- <topicref href="intro.dita"/>
- <topicref href="installation.dita"/>
+	<title>Hugo Documentation</title>
+	<topicmeta>
+		<author>Tobi Balogun</author>
+	 	<publisher>The LayCon</publisher>
+	 	<critdates>
+			<created date="March 25, 2022"/>
+ 		</critdates>
+	</topicmeta>
+	<topicref href="intro.dita"/>
+	<topicref href="installation.dita"/>
 </map>

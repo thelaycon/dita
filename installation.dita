@@ -26,7 +26,8 @@
 			
 			<p>After you install Golang, fetch the source code from GitHub and compile it.</p>
 
-			<pre>git clone https://github.com/gohugoio/hugo
+			<pre>
+				git clone https://github.com/gohugoio/hugo
 				mkdir -p src/github.com/gohugoio
 				ln -sf $(pwd) src/github.com/gohugoio/hugo
 				go get
@@ -50,10 +51,12 @@
 
 				<p>You should see something similar to this if homebrew is working well:</p>
 
-				<pre>==> Downloading https://homebrew.bintray.com/bottles/hugo-0.21.sierra.bottle.tar.gz
-		######################################################################### 100.0%
-		==> Pouring hugo-0.21.sierra.bottle.tar.gz
-			/usr/local/Cellar/hugo/0.21: 32 files, 17.4MB</pre>
+				<pre>
+					==> Downloading https://homebrew.bintray.com/bottles/hugo-0.21.sierra.bottle.tar.gz
+					######################################################################### 100.0%
+					==> Pouring hugo-0.21.sierra.bottle.tar.gz
+					/usr/local/Cellar/hugo/0.21: 32 files, 17.4MB
+				</pre>
 				<p>Now to confirm if homebrew has successfully installed Hugo, run the following command:</p>
 
 				<pre>hugo version</pre>
@@ -93,10 +96,4 @@
 			</section>
 		</section>
 			</body>
-
-	<related-links>
-		<link format="html" href="https://www.tobibalogun.com.ng/" scope="external">
-			<linktext>Learn more</linktext>
-		</link>
-	</related-links>
 </topic>
