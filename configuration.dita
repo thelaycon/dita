@@ -84,7 +84,7 @@
 
 			<section>
 				<title>publishDir</title>
-				<p>Defaults to <cmdname>public/</cmdname>. This is the folder your static website will be written to if you run <cmdname>hugo</name>.</p>
+				<p>Defaults to <cmdname>public/</cmdname>. This is the folder your static website will be written to if you run <cmdname>hugo</cmdname>.</p>
 			</section>
 
 			<section>
