@@ -13,4 +13,7 @@
 	<topicref href="installation.dita"/>
 	<topicref href="quickstart.dita"/>
 	<topicref href="structure.dita"/>
+	<topicref href="themes.dita"/>
+	<topicref href="deployment.dita"/>
+	<topicref href="configuration.dita"/>
 </map>

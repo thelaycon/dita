@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_configuration">
+	<title>Configuration</title>
+
+	<body>
+		
+		<p>The config.yaml, config.toml, and config.json are files that Hugo searches for configuration. Even better, you can break down the configurations into subfolders under a parent folder called config/. Your config/ folder can look like below:</p>
+
+		<p>
+			<screen>
+				├── config
+				│   ├── _default
+				│   │   ├── config.toml
+				│   │   ├── languages.toml
+				│   │   ├── menus.en.toml
+				│   │   ├── menus.zh.toml
+				│   │   └── params.toml
+				│   ├── production
+				│   │   ├── config.toml
+				│   │   └── params.toml
+				│   └── staging
+				│       ├── config.toml
+				│       └── params.toml
+
+			</screen>
+		</p>
+
+		<p>Note: The command *hugo server* uses _default/ for configuration and the command *hugo* uses production/ for configuration. To use staging/, run *hugo --environment staging* instead.</p>
+
+		<p>You can also specify custom configuration file by using the --config flag:</p>
+
+		<p>
+			<screen>
+				hugo --config debugconfig.toml
+				hugo --config a.toml,b.toml,c.toml
+			</screen>
+		</p>
+		
+		<p>If your website contains multiple config files in different formats, Hugo gives them priority in the following order:</p>
+
+		<pre>
+			1. ./config.toml
+			2. ./config.yaml
+			3. ./config.json
+		</pre>
+
+		<p>Environment configuration is also available with Hugo. You can configure your website via environment variables which is useful for multiple deployments.</p>
+
+		<p>Use HUGO_* for config options and HUGO_PARAMS_* for config params. All environmental variables used as keys must be in upper case.</p>
+
+		<p><screen>$ env HUGO_TITLE="My Title" hugo</screen></p>
+
+			
+		<section>
+			<title>Common Configuration Options</title>
+
+			<p>Hugo offers a rich set of configuration options that can make development easy. Below are some of these configurations that you can configure:</p>
+
+			<section>
+				<title>baseURL</title>
+				<p>This refers to your website url.</p>
+			</section>
+
+			<section>
+				<title>contentDir</title>
+				<p>This defaults to content.</p>
+			</section>
+		
+			<section>
+				<title>copyright</title>
+				<p>Copyright notice typically displayed in the footer.</p>
+			</section>
+
+			<section>
+				<title>enableRobotsTXT</title>
+				<p>Configure the generation of <cmdname>robots.txt</cmdname> file here.</p>
+			</section>
+
+			<section>
+				<title>paginate</title>
+				<p>The number of posts to display per page. It defaults to <cmdname>10</cmdname>.</p>
+			</section>
+
+			<section>
+				<title>publishDir</title>
+				<p>Defaults to <cmdname>public/</cmdname>. This is the folder your static website will be written to if you run <pre>hugo</pre>.</p>
+			</section>
+
+			<section>
+				<title>theme</title>
+				<p>Selects theme to use.</p>
+			</section>
+
+			<section>
+				<title>title</title>
+				<p>Title for website.</p>
+			</section>
+
+			<section>
+				<title>watch</title>
+				<p>Monitor the filesystem for changes. Defaults to <cmdname>false</cmdname>.</p>
+			</section>
+
+		</section>
+	</body>
+</topic>

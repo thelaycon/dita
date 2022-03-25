@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_themes">
+	<title>Themes</title>
+
+	<body>
+		
+		<p>Hugo themes, both free and paid, are available for use. Hugo official website host themes that covers blogs, portfolio, landing pages, and other categories. You can also find Hugo themes hosted by individuals or organizations under different kind of license.</p> 
+
+		<section>
+			<title>Themes Installation</title>
+
+			<p>To install themes using Hugo, you simply have to download the theme and store it under the themes folder. If you have Git installed, you can clone the repository of the theme:</p>
+
+			<p>
+				<screen>git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke</screen>
+			</p>
+			<p>Make Hugo recognize the theme by adding the following to the config.toml file:</p>
+
+			<p><screen>theme = ‘ananke’</screen></p>
+
+			<p>Replace ‘ananke’ with theme name.</p>
+
+		</section>
+
+		<section>
+			<title>Example Site</title>
+
+			<p>Hugo theme developers follow a convention of shipping their themes with example sites which gives users a head start on how the contents of the site would look like. You should advantage of these demo sites by copying all the contents to the root directory of your website.</p>
+
+			<p><screen>cp –rf themes/ananke/exampleSite/* . </screen></p>
+
+			<p>Start the server after the above step, your website now displays demo contents which can be edited or deleted. This approach is advisable especially for beginners.</p>
+
+		</section>
+
+		<section>
+			<title>Theme Structure</title>
+
+			<p>Hugo theme have similar or exact structure to the default Hugo site directory. Your Hugo website without the content directory and few additional files like theme.toml, README, and LICENCE can serve as a theme for another Hugo website. </p>
+			
+			<p>To learn more about the structure of a basic Hugo website, see here.</p>
+
+		</section>
+
+	</body>
+</topic>

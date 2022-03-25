@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hugo_deployment">
+	<title>Deployment</title>
+
+	<body>
+		
+		<p>Avoid using Hugo server in production, it is meant for development and testing purpose only. Hugo websites should be deployed like every other static websites. You can plug them into your choice of servers or you can deploy them without servers.</p> 
+
+		<p>The Hugo command itself is symbolic, it does just what Hugo truly stands for.</p>
+
+		<p>Run the below command to generate your static website that works without a server:</p>
+
+		<p><screen>hugo</screen></p>
+
+		<p>Make sure you run the above command in the root folder of your Hugo website. After you run the command, a folder called public will be generated.</p>
+
+		<p><screen>ls folder</screen></p>
+
+		<p>This folder contains all the files needed for your website. You can now deploy this folder to cloud services like Netlify, GitHub Pages, etc. You can also plug them behind some server if you want to exercise some degree of control on the traffic of your site.</p>
+
+		<section>
+			<title>CI/CD Workflow</title>
+
+			<p>A better approach with Hugo is to put in place some form of CI/CD workflow. For GitHub Pages users, this is available for free and easy to implement. Contact your host to see if there is a way to deploy your website using CI/CD workflow.</p>
+
+		</section>
+
+	</body>
+</topic>
