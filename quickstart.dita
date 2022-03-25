@@ -58,7 +58,7 @@
 
 				<info>Hugo provides a command through which you can create new posts for your website. The following illustrates how to create a post titled "My first post" using Hugo command.</info>
 
-				<stepxmp><screen>hugo new posts/my-first-post.md</screen><stepxmp>
+				<stepxmp><screen>hugo new posts/my-first-post.md</screen></stepxmp>
 
 						<stepresult>
 							<p>The above command will generate a new file called my-first-post.md under the contents/post folder. You should notice that Hugo utilizes a markdown template for creating new posts. If you edit the newly created file, you should have something like this:</p>
