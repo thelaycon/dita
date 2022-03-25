@@ -84,7 +84,7 @@
 
 			<section>
 				<title>publishDir</title>
-				<p>Defaults to <cmdname>public/</cmdname>. This is the folder your static website will be written to if you run <pre>hugo</pre>.</p>
+				<p>Defaults to <cmdname>public/</cmdname>. This is the folder your static website will be written to if you run <cmdname>hugo</name>.</p>
 			</section>
 
 			<section>
@@ -103,5 +103,13 @@
 			</section>
 
 		</section>
+
+		<related-links>
+			<link format="html" href="https://gohugo.io/getting-started/configuration/
+" scope="external">
+				<linktext>Configuration options</linktext>
+			</link>
+		</related-links>
+
 	</body>
 </topic>

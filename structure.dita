@@ -74,5 +74,10 @@
 
 		</section>
 
+		<related-links>
+			<link format="html" href="https://gohugo.io/getting-started/directory-structure/" scope="external">
+				<linktext>Hugo structure</linktext>
+			</link>
+		</related-links>
 	</body>
 </topic>

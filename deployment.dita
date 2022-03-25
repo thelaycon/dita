@@ -15,7 +15,24 @@
 
 		<p>Make sure you run the above command in the root folder of your Hugo website. After you run the command, a folder called public will be generated.</p>
 
-		<p><screen>ls folder</screen></p>
+		<p>
+			<screen>
+				ls folder
+
+				about/
+				categories/
+				css/
+				font-awesome-4.7.0/
+				fonts/
+				img/
+				index.html
+				index.xml
+				js/
+				pricing/
+				sitemap.xml
+				tags/
+			</screen>
+		</p>
 
 		<p>This folder contains all the files needed for your website. You can now deploy this folder to cloud services like Netlify, GitHub Pages, etc. You can also plug them behind some server if you want to exercise some degree of control on the traffic of your site.</p>
 

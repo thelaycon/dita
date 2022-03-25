@@ -14,12 +14,12 @@
 		<section>
 			<title>Download Binaries</title>
 			<p>Hugo binaries are cross-platform. Hence, you can download them and use them on your machines as you wish. Preferably, you should add the downloaded binaries to path to give you flexibility. Also, you can add the binaries on remote servers for cloud solutions.</p>
-			<p>Click here to download suitable binaries for your machines.</p>
+			<p><xref href="https://github.com/gohugoio/hugo/releases/" format="html" scope="external">Click here</xref> to download suitable binaries for your machines.</p>
 		</section>
 
 		<section>
 			<title>Build from Source</title>
-			<p>To build Hugo from source, you must have Golang installed. Download the latest version of Golang from https://golang.org if you do not have Golang installed on your machine. After you complete the basic Golang installation steps, follow the below steps to build Hugo from source on your machine:</p>
+			<p>To build Hugo from source, you must have Golang installed. Download the latest version of Golang from https://go.dev if you do not have Golang installed on your machine. After you complete the basic Golang installation steps, follow the below steps to build Hugo from source on your machine:</p>
 			<p>MacOs users should run the following to build Hugo from source, first, you must install Golang on your Mac machine:</p>
 			
 			<pre>brew install go</pre>
@@ -92,7 +92,6 @@
 
 				<pre>snap install hugo --channel=extended</pre>
 
-				<p>For information on how to download or install Hugo on your machine, see the links below:</p>
 			</section>
 		</section>
 			</body>

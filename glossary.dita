@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossgroup//EN" "glossgroup.dtd">
+
+<glossgroup id="hugo_glossary">
+	<title>Glossary</title>
+	<glossentry id="ci_cd">
+		<glossterm>CI/CD</glossterm>
+		<glossdef><b>C</b>onitinuous <b>In</b>tegration or <b>C</b>ontinuous <b>De</b>livery. Automated methods for continuous deployment of applications.</glossdef>
+	</glossentry>
+
+</glossgroup>

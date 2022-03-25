@@ -39,9 +39,14 @@
 
 			<p>Hugo theme have similar or exact structure to the default Hugo site directory. Your Hugo website without the content directory and few additional files like theme.toml, README, and LICENCE can serve as a theme for another Hugo website. </p>
 			
-			<p>To learn more about the structure of a basic Hugo website, see here.</p>
-
 		</section>
+
+		<related-links>
+			<link format="html" href="https://themes.gohugo.io/tags/blog/
+" scope="external">
+				<linktext>More themes</linktext>
+			</link>
+		</related-links>
 
 	</body>
 </topic>

@@ -29,7 +29,7 @@
 				<cmd>Add a theme.</cmd>
 
 				<info>
-					<p>Here you go, your first Hugo website. You should notice however that your website is blank, to give life to your website, you must add a Hugo theme. Hundreds of Hugo themes are available online, Hugo official website has a repository of beautiful themes that can be found here.</p>
+					<p>Here you go, your first Hugo website. You should notice however that your website is blank, to give life to your website, you must add a Hugo theme. Hundreds of Hugo themes are available online, Hugo official website has a repository of beautiful themes that can be found <xref href="https://themes.gohugo.io/tags/blog/" format="html" scope="external">here</xref>.</p>
 
 					<p>To add a theme, you need to save the theme under the *themes* folder. We will be using a certain theme called Ananke.</p>
 				</info>
@@ -61,7 +61,7 @@
 				<stepxmp><screen>hugo new posts/my-first-post.md</screen></stepxmp>
 
 						<stepresult>
-							<p>The above command will generate a new file called my-first-post.md under the contents/post folder. You should notice that Hugo utilizes a markdown template for creating new posts. If you edit the newly created file, you should have something like this:</p>
+							<p>The above command will generate a new file called my-first-post.md under the contents/post folder. You should notice that Hugo uses a markdown template for creating new posts. If you edit the newly created file, you should have something like this:</p>
 
 							<pre>
 								---
