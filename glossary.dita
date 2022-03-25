@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<glossgroup>
+<glossgroup id="gloss">
 	<title>Glossary</title>
 	<glossentry id="ci_cd">
 		<glossterm>CI/CD</glossterm>
