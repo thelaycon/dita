@@ -37,7 +37,7 @@
 					<screen>
 						cd mysite
 						git init
-							git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+						git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 					</screen>
 				</stepxmp>
 			</step>
