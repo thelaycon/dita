@@ -9,4 +9,5 @@
     </data>
   </topicmeta>
   <glossref href="../glossary/ci-cd.dita" keys="glossary_ci_cd" print="yes" toc="yes"/>
+  <glossref href="../glossary/golang.dita" keys="glossary_golang" print="yes" toc="yes"/>
 </map>
