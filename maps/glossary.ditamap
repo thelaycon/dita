@@ -8,5 +8,5 @@
       <data name="hide" value="yes"/>
     </data>
   </topicmeta>
-  <glossref href="glossary/ci-cd.dita" keys="glossary_ci_cd" print="yes" toc="yes"/>
+  <glossref href="../glossary/ci-cd.dita" keys="glossary_ci_cd" print="yes" toc="yes"/>
 </map>
