@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossentry//EN" "glossentry.dtd">
-<glossgroup id="gloss">
-	<title>Glossary</title>
-	<glossentry id="ci_cd">
+<glossentry id="ci_cd">
 		<glossterm>CI/CD</glossterm>
 		<glossdef><b>C</b>onitinuous <b>In</b>tegration or <b>C</b>ontinuous <b>De</b>livery. Automated methods for continuous deployment of applications.</glossdef>
-	</glossentry>
-
-</glossgroup>
+</glossentry>
