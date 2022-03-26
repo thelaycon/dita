@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="glossary">
+  <title>A Glossary of Terms used here</title>
+  <topicmeta>
+    <shortdesc>Definitions for terms used here </shortdesc>
+    <data name="wh-menu">
+      <data name="hide" value="yes"/>
+    </data>
+  </topicmeta>
+  <glossref href="glossary/ci-cd.dita" keys="glossary_ci_cd" print="yes" toc="yes"/>
+</map>
