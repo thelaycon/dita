@@ -19,5 +19,5 @@
 	<topicref href="themes.dita"/>
 	<topicref href="deployment.dita"/>
 	<topicref href="configuration.dita"/>
-	<glossref keys="ci_cd" href="glossary.dita" print="yes" toc="yes"/>
+	<glossref keys="gloss_ci_cd" href="glossary.dita" print="yes" toc="yes"/>
 </map>
