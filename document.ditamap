@@ -19,5 +19,5 @@
 	<topicref href="themes.dita"/>
 	<topicref href="deployment.dita"/>
 	<topicref href="configuration.dita"/>
-	<topicref href="maps/glossary.ditamap" format="ditamap"/>
+	<topicref href="maps/glossary.ditamap" format="ditamap" print="yes" toc="yes"/>
 </map>
